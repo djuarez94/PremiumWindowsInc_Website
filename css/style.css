@@ -1,0 +1,273 @@
+/*-------------------------------------
+| Color Palette
+
+0d1dbd : navy blue
+f1ba1a : goldish
+bc3335 : redish
+-------------------------------------*/
+
+/*-------------------------------------
+| index.html CSS
+-------------------------------------*/
+.navbar.navbar-inverse {
+    background-color: #0d1dbd;
+    border: none;
+    border-radius: 0;
+    margin-bottom: 0;
+}
+
+.navbar button.navbar-toggle {
+    border: none;
+}
+
+.navbar.navbar-inverse .navbar-toggle:hover {
+    background-color: #081599;
+}
+
+.navbar.navbar-inverse .navbar-toggle:focus {
+    background-color: #0d1dbd;
+}
+
+#myNavbar ul li a {
+   color: #fff;
+   padding-left: 2em;
+}
+
+#myNavbar ul li.active a{
+   background-color: #fff;
+   color: #0d1dbd;
+}
+
+#myNavbar ul li.dropdown.open {
+   background-color: #081599;
+}
+
+.navbar.navbar-inverse .navbar-nav>.open>a, .navbar.navbar-inverse .navbar-nav>.open>a:focus, .navbar.navbar-inverse .navbar-nav>.open>a:hover  {
+   background-color: #0d1dbd;
+}
+
+.navbar.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+   border: none;
+}
+
+.carousel,
+.item,
+.active {
+    height: 100%;
+}
+
+.carousel-inner {
+    height: 100%;
+}
+
+.fill {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.pageLinks {
+    margin-top: 50px;
+}
+
+.contain {
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-bottom: 2em;
+}
+
+.contain img {
+    display: block;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+.contain h2 {
+    color: #0d1dbd;
+    text-align: center;
+}
+
+.contain button {
+    border: none;
+    background-color: blue;
+    padding: 10px 20px 10px 20px;
+    margin-top: 1em;
+}
+
+.contain button:hover {
+    opacity: .7;
+}
+
+.contain button a {
+    color: #fff;
+    font-size: 16px;
+}
+
+.contain button a:hover {
+    text-decoration: none;
+}
+
+.list {
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-bottom: 2em;
+}
+
+.list h2 {
+    color: #0d1dbd;
+    text-align: center;
+    padding-bottom: .75em;
+}
+
+.list ul {
+   margin-left: 3em;
+}
+
+#extra {
+   text-align: center;
+   color: #bc3335;
+}
+
+/*-------------------------------------
+| about.html CSS
+-------------------------------------*/
+.about {
+   padding-left: 2em;
+   padding-right: 2em;
+}
+
+.about h2 {
+   color: #0d1dbd;
+}
+
+.quote {
+   padding-left: 2.5em;
+   padding-right: 2.5em;
+   padding-bottom: 1.5em;
+   text-align: center;
+   color: #0d1dbd;
+}
+
+.subAbout {
+   padding-left: 2em;
+   padding-right: 2em;
+}
+
+.subAbout img {
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+.subAbout p {
+   padding-top: 2em;
+   padding-bottom: 2em;
+}
+
+/*-------------------------------------
+| contact.html CSS
+-------------------------------------*/
+.operationHours {
+   padding-left: 2em;
+   padding-right: 2em;
+   padding-bottom: 2em;
+   padding-top: 2em;
+}
+
+.operationHours h2 {
+   color: #0d1dbd;
+}
+
+.directories {
+   padding-left: 2em;
+   padding-right: 2em;
+}
+
+.directories h2 {
+   color: #0d1dbd;
+}
+
+.directories h3 {
+   color: #f1ba1a;
+}
+
+.staff {
+   margin-top: 2em;
+}
+
+td.positions {
+   text-align: right;
+}
+
+td {
+   padding-top: 1em;
+   padding-bottom: 1em;
+}
+
+span {
+   color: #0d1dbd;
+   font-weight: bold;
+}
+
+#contact {
+   padding-left: 1em;
+   padding-right: 1em;
+   padding-bottom: 2em;
+}
+
+#submitButton {
+   background-color: #0d1dbd;
+   font-size: 1em;
+   color: #fff;
+   padding: 8px 15px 8px 15px;
+   border: none;
+   margin-left: -15px;
+}
+
+#submitButton:hover {
+   background-color: #060f70;
+}
+
+#repButton {
+   background-color: #0d1dbd;
+   font-size: 1em;
+   padding: 8px 15px 8px 15px;
+   border: none;
+}
+
+#repButton a {
+   color: #fff;
+}
+
+#repButton a:hover {
+   text-decoration: none;
+}
+
+#repButton:hover {
+   background-color: #060f70;
+}
+/*-------------------------------------
+| footer CSS
+-------------------------------------*/
+footer {
+    background-color: #0d1dbd;
+    padding: 1em 2em 1.5em 2em;
+    text-align: center;
+}
+
+.copyright {
+    text-align: center;
+    color: #fff;
+}
+
+a.policy {
+   text-decoration: underline;
+}
+
+.socialLinks {
+    padding-top: 1em;
+}
