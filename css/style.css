@@ -250,6 +250,132 @@ span {
 #repButton:hover {
    background-color: #060f70;
 }
+
+/*-------------------------------------
+| glass.html CSS
+-------------------------------------*/
+div.gallery {
+   text-align: center;
+}
+
+div.gallery img {
+   padding: 1em 0em 1em 0em;
+}
+
+div.E366 {
+   padding-left: 2.5em;
+   padding-right: 2.5em;
+   padding-bottom: 2em;
+}
+
+div.E366 h2 {
+   text-align: center;
+   color: #0d1dbd;
+}
+
+div.glassOption {
+   padding-left: 2.5em;
+   padding-right: 2.5em;
+   padding-bottom: 2em;
+}
+
+div.glassOption h2 {
+   text-align: center;
+   color: #0d1dbd;
+}
+
+div.glassOption img {
+   text-align: center;
+   padding-top: 1em;
+   margin-left: -.6em;
+}
+
+/*-------------------------------------
+| windows.html CSS
+-------------------------------------*/
+div.intro {
+   padding-left: 2.5em;
+   padding-right: 2.5em;
+   padding-bottom: 2.5em;
+}
+
+div.intro h2 {
+   color: #0d1dbd;
+   text-align: center;
+}
+
+div.intro p {
+   padding-top: 1em;
+   padding-bottom: 1.5em;
+}
+
+div.intro button {
+   background-color: #0d1dbd;
+   padding: 10px 20px 10px 20px;
+   border: none;
+}
+
+div.windowLink {
+   padding-bottom: 1em;
+   padding-top: 1em;
+}
+
+div.intro button a {
+   color: #fff;
+}
+
+div.windowLink p {
+   font-size: 1.5em;
+   color: #0d1dbd;
+}
+
+/*-------------------------------------
+| doors.html CSS
+-------------------------------------*/
+div.intro button {
+   margin-bottom: 1em;
+   margin-right: 1em;
+}
+
+/*-------------------------------------
+| certificates.html CSS
+-------------------------------------*/
+div.certificates {
+   text-align: center;
+   padding-top: 2em;
+   padding-bottom: 2em;
+}
+
+div.certificates img {
+   padding-bottom: 2em;
+}
+
+div.certificates p {
+   text-align: left;
+}
+
+div.award {
+   padding-left: 2em;
+   padding-right: 2em;
+   padding-bottom: 2em;
+}
+
+div.award button {
+   border: none;
+   background-color: #0d1dbd;
+   padding: 10px 20px 10px 20px;
+}
+
+div.award button a {
+   color: #fff;
+}
+
+div.careers {
+   padding-left: 2em;
+   padding-right: 2em;
+   padding-bottom: 2em;
+   padding-top: 2em;
+}
 /*-------------------------------------
 | footer CSS
 -------------------------------------*/
