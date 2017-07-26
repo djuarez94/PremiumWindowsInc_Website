@@ -10,40 +10,51 @@ bc3335 : redish
 | index.html CSS
 -------------------------------------*/
 .navbar.navbar-inverse {
-    background-color: #0d1dbd;
+    background-color: #fff;
     border: none;
     border-radius: 0;
     margin-bottom: 0;
+
+    padding-bottom: 1em;
 }
 
 .navbar button.navbar-toggle {
     border: none;
+    margin-top: 24px;
 }
 
 .navbar.navbar-inverse .navbar-toggle:hover {
-    background-color: #081599;
+    background-color: #727fbd;
 }
 
 .navbar.navbar-inverse .navbar-toggle:focus {
-    background-color: #0d1dbd;
+    background-color: #fff;
+}
+
+.navbar .navbar-toggle .icon-bar {
+   background: #0d1dbd;
 }
 
 #myNavbar ul li a {
-   color: #fff;
+   color: #0d1dbd;
    padding-left: 2em;
 }
 
 #myNavbar ul li.active a{
-   background-color: #fff;
-   color: #0d1dbd;
+   background-color: #0d1dbd;
+   color: #fff;
 }
 
 #myNavbar ul li.dropdown.open {
    background-color: #081599;
 }
 
+#myNavbar ul.dropdown-menu li a{
+   color: #fff;
+}
+
 .navbar.navbar-inverse .navbar-nav>.open>a, .navbar.navbar-inverse .navbar-nav>.open>a:focus, .navbar.navbar-inverse .navbar-nav>.open>a:hover  {
-   background-color: #0d1dbd;
+   background-color: #fff;
 }
 
 .navbar.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
@@ -208,7 +219,7 @@ td {
    padding-bottom: 1em;
 }
 
-span {
+.positions span {
    color: #0d1dbd;
    font-weight: bold;
 }
@@ -254,12 +265,12 @@ span {
 /*-------------------------------------
 | glass.html CSS
 -------------------------------------*/
-div.gallery {
-   text-align: center;
+.modal.and.carousel {
+  position: fixed; // Needed because the carousel overrides the position property
 }
 
-div.gallery img {
-   padding: 1em 0em 1em 0em;
+.modal .fade .and .carousel .slide .in {
+   padding-right: 0px;
 }
 
 div.E366 {
