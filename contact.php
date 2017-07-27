@@ -22,20 +22,20 @@
                 </div>
                 <div class="collapse navbar-collapse" id="myNavbar">
                     <ul class="nav navbar-nav">
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="about.html">About</a></li>
-                        <li class="active"><a href="contact.html">Contact</a></li>
+                        <li><a href="index.php">Home</a></li>
+                        <li><a href="about.php">About</a></li>
+                        <li class="active"><a href="contact.php">Contact</a></li>
                         <li class="dropdown">
                             <a class="dropdown-toggle" data-toggle="dropdown" href="#">Products
                             <span class="caret"></span></a>
                         <ul class="dropdown-menu">
-                            <li><a href="glass.html">Glass</a></li>
-                            <li><a href="windows.html">Windows</a></li>
-                            <li><a href="doors.html">Doors</a></li>
+                            <li><a href="glass.php">Glass</a></li>
+                            <li><a href="windows.php">Windows</a></li>
+                            <li><a href="doors.php">Doors</a></li>
                         </ul>
                         </li>
-                        <li><a href="certificates.html">Certificates</a></li>
-                        <li><a href="careers.html">Careers</a></li>
+                        <li><a href="certificates.php">Certificates</a></li>
+                        <li><a href="careers.php">Careers</a></li>
                     </ul>
                     <ul class="nav navbar-nav navbar-right">
                         <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
@@ -144,7 +144,7 @@
                     </td>
                 </tr>
             </table>
-			<button id="repButton" type="button" name="button"><a href="la-rep.html">Los Angeles Sales Rep</a></button>
+			<button id="repButton" type="button" name="button"><a href="la-rep.php">Los Angeles Sales Rep</a></button>
             <br>
             <table width="100%">
                 <h3 class="staff">Office Staff</h3>
@@ -258,7 +258,7 @@
             </table>
 			<div class="contact" id="contactUs">
 				<h2>Contact Us</h2>
-				<form method="post" action="contact.html#alert" id="contact" class="form-horizontal  text-left">
+				<form method="post" action="contact.php#alert" id="contact" class="form-horizontal  text-left">
 					<div class="form-group text-left">
 						<label for="firstName">First Name:</label>
 						<input name="firstName" type="firstName" class="form-control" id="firstName" placeholder= "Enter first name">
@@ -283,15 +283,7 @@
 				</form>
 			</div>
         </div>
-        <footer>
-            <p class="copyright">&copy; <?php echo date('Y'); ?> Premium Windows Inc.<br>All rights reserved.</p>
-            <a href="privacy-policy.html">Privacy Policy</a>
-            <div class="text-center socialLinks">
-        		<a href="#" target="_blank" ><i id='socialIcons' class="fa fa-facebook-square" style="color:#fff; font-size: 3em;"></i></a>
-        		<a href="#" target="_blank" ><i id='socialIcons' class="fa fa-instagram" aria-hidden="true" style="padding-right: .25em; padding-left: .25em; color:#fff; font-size: 3em;"></i></a>
-        		<a href="#" target="_blank" ><i id='socialIcons' class="fa fa-twitter-square" style="font-size:3em; color:#fff;"></i></a>
-        	</div>
-        </footer>
+        <?php include 'include/footer.php' ?>
     </body>
     <script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
 	<script type="text/javascript" src="js/bootstrap.min.js"></script>

@@ -7,7 +7,7 @@ bc3335 : redish
 -------------------------------------*/
 
 /*-------------------------------------
-| index.html CSS
+| index.php CSS
 -------------------------------------*/
 .navbar.navbar-inverse {
     background-color: #fff;
@@ -144,7 +144,7 @@ bc3335 : redish
 }
 
 /*-------------------------------------
-| about.html CSS
+| about.php CSS
 -------------------------------------*/
 .about {
    padding-left: 2em;
@@ -180,7 +180,7 @@ bc3335 : redish
 }
 
 /*-------------------------------------
-| contact.html CSS
+| contact.php CSS
 -------------------------------------*/
 .operationHours {
    padding-left: 2em;
@@ -210,6 +210,18 @@ bc3335 : redish
    margin-top: 2em;
 }
 
+tr {
+   display: flex;
+}
+
+td.positions {
+   flex: 2
+}
+
+td {
+   flex: 3;
+}
+
 td.positions {
    text-align: right;
 }
@@ -228,11 +240,12 @@ td {
    padding-left: 1em;
    padding-right: 1em;
    padding-bottom: 2em;
+   padding-top: 1.5em;
 }
 
 #submitButton {
    background-color: #0d1dbd;
-   font-size: 1em;
+   font-size: 1.5em;
    color: #fff;
    padding: 8px 15px 8px 15px;
    border: none;
@@ -263,7 +276,7 @@ td {
 }
 
 /*-------------------------------------
-| glass.html CSS
+| glass.php CSS
 -------------------------------------*/
 .modal.and.carousel {
   position: fixed; // Needed because the carousel overrides the position property
@@ -320,7 +333,7 @@ div.glassOption img {
 }
 
 /*-------------------------------------
-| windows.html CSS
+| windows.php CSS
 -------------------------------------*/
 div.intro {
    padding-left: 2.5em;
@@ -347,6 +360,7 @@ div.intro button {
 div.windowLink {
    padding-bottom: 1em;
    padding-top: 1em;
+   text-align: center;
 }
 
 div.intro button a {
@@ -359,7 +373,7 @@ div.windowLink p {
 }
 
 /*-------------------------------------
-| doors.html CSS
+| doors.php CSS
 -------------------------------------*/
 div.intro button {
    margin-bottom: 1em;
@@ -367,7 +381,85 @@ div.intro button {
 }
 
 /*-------------------------------------
-| certificates.html CSS
+| window-grids.php CSS
+-------------------------------------*/
+.grids {
+   padding-left: 2em;
+   padding-right: 2em;
+   padding-bottom: 2em;
+   text-align: center;
+}
+
+.grids h2 {
+   color: #0d1dbd;
+   padding-bottom: 1em;
+   padding-top: .5em;
+   text-align: left;
+}
+
+.header {
+   padding-bottom: 2em;
+}
+
+.header .text {
+   padding-left: 2em;
+   padding-right: 2em;
+   padding-bottom: 2em;
+}
+
+.header .text h2 {
+   color: #0d1dbd;
+}
+
+/*-------------------------------------
+| frames.php CSS
+-------------------------------------*/
+.columns {
+   padding-left: 2em;
+   padding-right: 2em;
+   margin-top: -3em;
+}
+
+.columns h3 {
+   color: #0d1dbd;
+}
+
+.frames {
+   padding-left: 2em;
+   padding-right: 2em;
+}
+
+.frames h2 {
+   color: #0d1dbd;
+   padding-top: .5em;
+   padding-bottom: 1em;
+}
+
+.frames p {
+   text-align: center;
+   padding-bottom: 1em;
+}
+
+.frames .item img {
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   padding-bottom: 1em;
+}
+
+.frames .extra p {
+   text-align: left;
+}
+
+.frames .extra img {
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   padding-bottom: 1em;
+}
+
+/*-------------------------------------
+| certificates.php CSS
 -------------------------------------*/
 div.certificates {
    text-align: center;
@@ -406,6 +498,130 @@ div.careers {
    padding-bottom: 2em;
    padding-top: 2em;
 }
+
+/*-------------------------------------
+| door-grids.php CSS
+-------------------------------------*/
+
+/*-------------------------------------
+| door-hardware.php CSS
+-------------------------------------*/
+.section {
+   padding-left: 2em;
+   padding-right: 2em;
+   padding-bottom: 2em;
+}
+
+.section h2 {
+   color: #0d1dbd;
+}
+
+.section .items {
+   padding-top:1.5em;
+   padding-right:1.5em;
+}
+
+.section .items h3 {
+   color: #0d1dbd;
+   text-align: center;
+}
+
+.section .items img {
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   padding-bottom: 2em;
+}
+
+div.flexRow {
+   display: flex;
+}
+
+div.flexRow .flexImg {
+   flex: 1;
+}
+
+div.flexRow .flexImg img {
+   padding-left: 1em;
+}
+
+/*-------------------------------------
+| slidingWindows.php CSS
+-------------------------------------*/
+.windowGallery .gallery {
+   text-align: center;
+   margin-top: -5em;
+}
+
+/*-------------------------------------
+| gardenWindows.php CSS
+-------------------------------------*/
+.windowList {
+   padding-bottom: 1.5em;
+}
+
+.windowList h2 {
+   color: #0d1dbd;
+}
+
+/*-------------------------------------
+| slidingPatioDoors.php CSS
+-------------------------------------*/
+.windowGallery .gallery2 {
+   text-align: center;
+   margin-top: -2em;
+}
+
+div.doorInfo {
+   padding-left: 2em;
+   padding-right: 2em;
+}
+
+div.doorInfo .subtitle h2 {
+   color: #0d1dbd;
+}
+
+div.petDoor {
+   text-align: center;
+}
+
+div.petDoor img {
+   padding-bottom: 1em;
+}
+
+div.doorList {
+   padding-bottom: 1.5em;
+}
+
+div.doorList h3 {
+   color: #0d1dbd;
+}
+
+/*-------------------------------------
+| la-rep.php CSS
+-------------------------------------*/
+div.intro img{
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   padding-top: 1em;
+   padding-bottom: 1em;
+}
+
+/*-------------------------------------
+| request-service.php CSS
+-------------------------------------*/
+#contactUs {
+   padding-left: 3em;
+   padding-right: 3em;
+   padding-bottom: 2em;
+}
+
+#contactUs h2{
+   text-align: center;
+   color :#0d1dbd;
+}
+
 /*-------------------------------------
 | footer CSS
 -------------------------------------*/
@@ -415,15 +631,26 @@ footer {
     text-align: center;
 }
 
-.copyright {
-    text-align: center;
-    color: #fff;
-}
-
 a.policy {
-   text-decoration: underline;
+   color: #f1ba1a;
 }
 
 .socialLinks {
+    padding-top: 1.5em;
+    padding-bottom: 1.5em;
+}
+
+i#socialIcons {
+   transition: .5s;
+   opacity: 1;
+}
+
+i#socialIcons:hover {
+   opacity: .75;
+}
+
+.copyright {
+    text-align: center;
+    color: #fff;
     padding-top: 1em;
 }

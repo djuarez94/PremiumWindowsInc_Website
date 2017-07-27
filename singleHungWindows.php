@@ -1,61 +1,63 @@
 <!doctype html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>French Sliding Doors</title>
-		<link rel="stylesheet" href="css/bootstrap.min.css">
-		<link rel="stylesheet" href="css/style.css">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    </head>
-    <body>
-        <nav class="navbar navbar-inverse">
-    <div class="container-fluid">
-        <div class="navbar-header">
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
-            <a class="navbar-brand" href="#"><img src="img/PremiumSite_imgs/PremiumWindows_Logo.jpg" alt="Premium Windows Logo" width="80px"></a>
-        </div>
-        <div class="collapse navbar-collapse" id="myNavbar">
-            <ul class="nav navbar-nav">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="contact.html">Contact</a></li>
-                <li class="dropdown  active">
-                    <a class="dropdown-toggle" data-toggle="dropdown" href="#">Products
-                    <span class="caret"></span></a>
-                <ul class="dropdown-menu">
-                    <li><a href="glass.html">Glass</a></li>
-                    <li><a href="windows.html">Windows</a></li>
-                    <li><a href="doors.html">Doors</a></li>
-                </ul>
-                </li>
-                <li><a href="certificates.html">Certificates</a></li>
-                <li><a href="careers.html">Careers</a></li>
-            </ul>
-            <ul class="nav navbar-nav navbar-right">
-                <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
-                <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
-            </ul>
-        </div>
-    </div>
-</nav>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Premium Windows Inc || Home</title>
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<nav class="navbar navbar-inverse">
+		<div class="container-fluid">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand" href="#"><img src="img/PremiumSite_imgs/PremiumWindows_Logo.jpg" alt="Premium Windows Logo" width="80px"></a>
+			</div>
+			<div class="collapse navbar-collapse" id="myNavbar">
+				<ul class="nav navbar-nav">
+					<li><a href="index.php">Home</a></li>
+					<li><a href="about.php">About</a></li>
+					<li><a href="contact.php">Contact</a></li>
+					<li class="dropdown active">
+						<a class="dropdown-toggle" data-toggle="dropdown" href="#">Products
+						<span class="caret"></span></a>
+					<ul class="dropdown-menu">
+						<li><a href="glass.php">Glass</a></li>
+						<li><a href="windows.php">Windows</a></li>
+						<li><a href="doors.php">Doors</a></li>
+					</ul>
+					</li>
+					<li><a href="certificates.php">Certificates</a></li>
+					<li><a href="careers.php">Careers</a></li>
+				</ul>
+				<ul class="nav navbar-nav navbar-right">
+					<li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+					<li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
 <div id="myCarousel" class="carousel slide" data-ride="carousel">
     <!-- Indicators -->
     <ol class="carousel-indicators">
         <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
         <li data-target="#myCarousel" data-slide-to="1"></li>
         <li data-target="#myCarousel" data-slide-to="2"></li>
+        <li data-target="#myCarousel" data-slide-to="3"></li>
+        <li data-target="#myCarousel" data-slide-to="4"></li>
     </ol>
 
     <!-- Wrapper for slides -->
     <div class="carousel-inner">
         <div class="item active">
-            <img class="fill" src="img/PremiumSite_imgs/frenchSlidingDoorPG_Imgs/frenchSlidingDoor_slideshow_1.jpg" alt="doorSlide_1">
+            <img class="fill" src="img/PremiumSite_imgs/singleHungWindowsPG_Imgs/singleHungWindows_slideshow_1.jpg" alt="doorSlide_1">
             <div class="carousel-caption">
                 <!-- <h3>Los Angeles</h3> -->
                 <!-- <p>LA is always so much fun!</p> -->
@@ -63,7 +65,7 @@
         </div>
 
         <div class="item">
-            <img class="fill" src="img/PremiumSite_imgs/frenchSlidingDoorPG_Imgs/frenchSlidingDoor_slideshow_2.jpg" alt="doorSlide_2">
+            <img class="fill" src="img/PremiumSite_imgs/singleHungWindowsPG_Imgs/singleHungWindows_slideshow_2.jpg" alt="doorSlide_2">
             <div class="carousel-caption">
                 <!-- <h3>Chicago</h3> -->
                 <!-- <p>Thank you, Chicago!</p> -->
@@ -71,7 +73,23 @@
         </div>
 
         <div class="item">
-            <img class="fill" src="img/PremiumSite_imgs/frenchSlidingDoorPG_Imgs/frenchSlidingDoor_slideshow_3.jpg" alt="doorSlide_3">
+            <img class="fill" src="img/PremiumSite_imgs/singleHungWindowsPG_Imgs/singleHungWindows_slideshow_3.jpg" alt="doorSlide_3">
+            <div class="carousel-caption">
+                <!-- <h3>Chicago</h3> -->
+                <!-- <p>Thank you, Chicago!</p> -->
+            </div>
+        </div>
+
+        <div class="item">
+            <img class="fill" src="img/PremiumSite_imgs/singleHungWindowsPG_Imgs/singleHungWindows_slideshow_4.jpg" alt="doorSlide_4">
+            <div class="carousel-caption">
+                <!-- <h3>Chicago</h3> -->
+                <!-- <p>Thank you, Chicago!</p> -->
+            </div>
+        </div>
+
+        <div class="item">
+            <img class="fill" src="img/PremiumSite_imgs/singleHungWindowsPG_Imgs/singleHungWindows_slideshow_5.jpg" alt="doorSlide_4">
             <div class="carousel-caption">
                 <!-- <h3>Chicago</h3> -->
                 <!-- <p>Thank you, Chicago!</p> -->
@@ -90,25 +108,23 @@
     </a>
 </div>
         <div class="intro">
-            <h2>French Sliding Doors</h2>
-            <p>French sliding doors combine the traditional style of the French swing doors with the space saving convenience of a sliding patio door. French sliding doors are built with wider door frames than the standard patio door frame for stronger performance and luxurious appeal. You can add more style by selecting different options of glass and grids.</p>
-            <button type="button" name="button"><a href="frames.html">Door Frames</a></button>
-            <button type="button" name="button"><a href="door-hardware.html">Hardware</a></button>
+            <h2>Single Hung Windows</h2>
+            <p>Single Hung windows open vertically and do not take up much space in the home. This makes them perfect for walkways, porches, patios or other places where you wouldn’t want a window to protrude. They raise from the bottom for ventilation and when closed, provides superior structural integrity & resistance to wind. </p>
+            <p>The lower sash can be easily removed to clean the exterior glass from inside your home. Vertical sliding windows glide open with little effort & are faster to open than crank-style awning or casement windows.</p>
         </div>
         <div class="windowGallery">
             <div class="gallery">
-              <img src="img/PremiumSite_imgs/frenchSlidingDoorPG_Imgs/frenchSlidingDoor_1.jpg" data-toggle="modal" data-target="#myModal" width="300px">
-              <img src="img/PremiumSite_imgs/frenchSlidingDoorPG_Imgs/frenchSlidingDoor_2.jpg" data-toggle="modal" data-target="#myModal2" width="300px">
-              <img src="img/PremiumSite_imgs/frenchSlidingDoorPG_Imgs/frenchSlidingDoor_3.jpg" data-toggle="modal" data-target="#myModal3" width="300px">
-              <img src="img/PremiumSite_imgs/frenchSlidingDoorPG_Imgs/frenchSlidingDoor_4.jpg" data-toggle="modal" data-target="#myModal4" width="300px">
-              <img src="img/PremiumSite_imgs/frenchSlidingDoorPG_Imgs/frenchSlidingDoor_5.jpg" data-toggle="modal" data-target="#myModal5" width="300px">
-              <img src="img/PremiumSite_imgs/frenchSlidingDoorPG_Imgs/frenchSlidingDoor_6.jpg" data-toggle="modal" data-target="#myModal6" width="300px">
-              <img src="img/PremiumSite_imgs/frenchSlidingDoorPG_Imgs/frenchSlidingDoor_7.jpg" data-toggle="modal" data-target="#myModal7" width="300px">
-              <img src="img/PremiumSite_imgs/frenchSlidingDoorPG_Imgs/frenchSlidingDoor_8.jpg" data-toggle="modal" data-target="#myModal8" width="300px">
-              <img src="img/PremiumSite_imgs/frenchSlidingDoorPG_Imgs/frenchSlidingDoor_9.jpg" data-toggle="modal" data-target="#myModal9" width="300px">
-              <img src="img/PremiumSite_imgs/frenchSlidingDoorPG_Imgs/frenchSlidingDoor_10.jpg" data-toggle="modal" data-target="#myModal10" width="300px">
-              <img src="img/PremiumSite_imgs/frenchSlidingDoorPG_Imgs/frenchSlidingDoor_11.jpg" data-toggle="modal" data-target="#myModal11" width="300px">
-              <img src="img/PremiumSite_imgs/frenchSlidingDoorPG_Imgs/frenchSlidingDoor_12.jpg" data-toggle="modal" data-target="#myModal12" width="300px">
+              <img src="img/PremiumSite_imgs/singleHungWindowsPG_Imgs/singleHungWindows_1.jpg" data-toggle="modal" data-target="#myModal" width="300px">
+              <img src="img/PremiumSite_imgs/singleHungWindowsPG_Imgs/singleHungWindows_2.jpg" data-toggle="modal" data-target="#myModal2" width="300px">
+              <img src="img/PremiumSite_imgs/singleHungWindowsPG_Imgs/singleHungWindows_3.jpg" data-toggle="modal" data-target="#myModal3" width="300px">
+              <img src="img/PremiumSite_imgs/singleHungWindowsPG_Imgs/singleHungWindows_4.jpg" data-toggle="modal" data-target="#myModal4" width="300px">
+              <img src="img/PremiumSite_imgs/singleHungWindowsPG_Imgs/singleHungWindows_5.jpg" data-toggle="modal" data-target="#myModal5" width="300px">
+              <img src="img/PremiumSite_imgs/singleHungWindowsPG_Imgs/singleHungWindows_6.jpg" data-toggle="modal" data-target="#myModal6" width="300px">
+              <img src="img/PremiumSite_imgs/singleHungWindowsPG_Imgs/singleHungWindows_7.jpg" data-toggle="modal" data-target="#myModal7" width="300px">
+              <img src="img/PremiumSite_imgs/singleHungWindowsPG_Imgs/singleHungWindows_8.jpg" data-toggle="modal" data-target="#myModal8" width="300px">
+              <img src="img/PremiumSite_imgs/singleHungWindowsPG_Imgs/singleHungWindows_9.jpg" data-toggle="modal" data-target="#myModal9" width="300px">
+              <img src="img/PremiumSite_imgs/singleHungWindowsPG_Imgs/singleHungWindows_10.jpg" data-toggle="modal" data-target="#myModal10" width="300px">
+              <img src="img/PremiumSite_imgs/singleHungWindowsPG_Imgs/singleHungWindows_11.jpg" data-toggle="modal" data-target="#myModal11" width="300px">
             </div>
 
         </div>
@@ -121,7 +137,7 @@
                 <h4 class="modal-title">Reed</h4>
               </div>
               <div class="modal-body">
-                <img src="img/PremiumSite_imgs/frenchSlidingDoorPG_Imgs/frenchSlidingDoor_1.jpg" width="100%">
+                <img src="img/PremiumSite_imgs/singleHungWindowsPG_Imgs/singleHungWindows_1.jpg" width="100%">
               </div>
               <div class="modal-footer">
                 <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -138,7 +154,7 @@
                 <h4 class="modal-title">Bamboo</h4>
               </div>
               <div class="modal-body">
-                <img src="img/PremiumSite_imgs/frenchSlidingDoorPG_Imgs/frenchSlidingDoor_2.jpg" width="100%">
+                <img src="img/PremiumSite_imgs/singleHungWindowsPG_Imgs/singleHungWindows_2.jpg" width="100%">
               </div>
               <div class="modal-footer">
                 <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -155,7 +171,7 @@
                 <h4 class="modal-title">Delta Frost</h4>
               </div>
               <div class="modal-body">
-                <img src="img/PremiumSite_imgs/frenchSlidingDoorPG_Imgs/frenchSlidingDoor_3.jpg" width="100%">
+                <img src="img/PremiumSite_imgs/singleHungWindowsPG_Imgs/singleHungWindows_3.jpg" width="100%">
               </div>
               <div class="modal-footer">
                 <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -172,7 +188,7 @@
                 <h4 class="modal-title">Glue Chip</h4>
               </div>
               <div class="modal-body">
-                <img src="img/PremiumSite_imgs/frenchSlidingDoorPG_Imgs/frenchSlidingDoor_4.jpg" width="100%">
+                <img src="img/PremiumSite_imgs/singleHungWindowsPG_Imgs/singleHungWindows_4.jpg" width="100%">
               </div>
               <div class="modal-footer">
                 <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -189,7 +205,7 @@
                 <h4 class="modal-title">Flemish</h4>
               </div>
               <div class="modal-body">
-                <img src="img/PremiumSite_imgs/frenchSlidingDoorPG_Imgs/frenchSlidingDoor_5.jpg" width="100%">
+                <img src="img/PremiumSite_imgs/singleHungWindowsPG_Imgs/singleHungWindows_5.jpg" width="100%">
               </div>
               <div class="modal-footer">
                 <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -206,7 +222,7 @@
                 <h4 class="modal-title">Rain</h4>
               </div>
               <div class="modal-body">
-                <img src="img/PremiumSite_imgs/frenchSlidingDoorPG_Imgs/frenchSlidingDoor_6.jpg" width="100%">
+                <img src="img/PremiumSite_imgs/singleHungWindowsPG_Imgs/singleHungWindows_6.jpg" width="100%">
               </div>
               <div class="modal-footer">
                 <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -223,7 +239,7 @@
                 <h4 class="modal-title">Obsucre</h4>
               </div>
               <div class="modal-body">
-                <img src="img/PremiumSite_imgs/frenchSlidingDoorPG_Imgs/frenchSlidingDoor_7.jpg" width="100%">
+                <img src="img/PremiumSite_imgs/singleHungWindowsPG_Imgs/singleHungWindows_7.jpg" width="100%">
               </div>
               <div class="modal-footer">
                 <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -240,7 +256,7 @@
                 <h4 class="modal-title">Obsucre</h4>
               </div>
               <div class="modal-body">
-                <img src="img/PremiumSite_imgs/frenchSlidingDoorPG_Imgs/frenchSlidingDoor_8.jpg" width="100%">
+                <img src="img/PremiumSite_imgs/singleHungWindowsPG_Imgs/singleHungWindows_8.jpg" width="100%">
               </div>
               <div class="modal-footer">
                 <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -257,7 +273,7 @@
                 <h4 class="modal-title">Obsucre</h4>
               </div>
               <div class="modal-body">
-                <img src="img/PremiumSite_imgs/frenchSlidingDoorPG_Imgs/frenchSlidingDoor_9.jpg" width="100%">
+                <img src="img/PremiumSite_imgs/singleHungWindowsPG_Imgs/singleHungWindows_9.jpg" width="100%">
               </div>
               <div class="modal-footer">
                 <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -274,7 +290,7 @@
                 <h4 class="modal-title">Obsucre</h4>
               </div>
               <div class="modal-body">
-                <img src="img/PremiumSite_imgs/frenchSlidingDoorPG_Imgs/frenchSlidingDoor_10.jpg" width="100%">
+                <img src="img/PremiumSite_imgs/singleHungWindowsPG_Imgs/singleHungWindows_10.jpg" width="100%">
               </div>
               <div class="modal-footer">
                 <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -291,7 +307,7 @@
                 <h4 class="modal-title">Obsucre</h4>
               </div>
               <div class="modal-body">
-                <img src="img/PremiumSite_imgs/frenchSlidingDoorPG_Imgs/frenchSlidingDoor_11.jpg" width="100%">
+                <img src="img/PremiumSite_imgs/singleHungWindowsPG_Imgs/singleHungWindows_11.jpg" width="100%">
               </div>
               <div class="modal-footer">
                 <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -299,50 +315,7 @@
             </div>
           </div>
         </div>
-        <div id="myModal12" class="modal fade" role="dialog">
-          <div class="modal-dialog">
-            <!-- Modal content-->
-            <div class="modal-content">
-              <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal">&times;</button>
-                <h4 class="modal-title">Obsucre</h4>
-              </div>
-              <div class="modal-body">
-                <img src="img/PremiumSite_imgs/frenchSlidingDoorPG_Imgs/frenchSlidingDoor_12.jpg" width="100%">
-              </div>
-              <div class="modal-footer">
-                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="doorInfo">
-            <div class="subtitle">
-                <h2>French Sliding Doors</h2>
-                <p>Keep the luxurious look of your door with the convenience for your pet to come and go as they please. Give your pet the perfect passage between your home and the outdoors. Small, Medium, Large? You name it, we make it!</p>
-            </div>
-            <div class="petDoor">
-                <img src="img/PremiumSite_imgs/slidingPatioDoorPG_Imgs/slidingPatioDoor_large.jpg">
-                <p>Sliding Patio Door with Pet Door</p>
-            </div>
-            <div class="doorList">
-                <ul>
-                    <h3>Pet Door Availability:</h3>
-                    <li>Custom made to fit your needs</li>
-                    <li>Grid options available</li>
-                    <li>Sliding Patio Door, French Sliding Door, or French Swing Door</li>
-                </ul>
-            </div>
-        </div>
-        <footer>
-            <p class="copyright">&copy; <?php echo date('Y'); ?> Premium Windows Inc.<br>All rights reserved.</p>
-            <a href="privacy-policy.html">Privacy Policy</a>
-            <div class="text-center socialLinks">
-        		<a href="https://www.linkedin.com/in/david-juarez-915270117" target="_blank" ><i id='socialIcons' class="fa fa-facebook-square" style="color:#fff; font-size: 3em;"></i></a>
-        		<a href="https://www.freecodecamp.com/djuarez94" target="_blank" ><i id='socialIcons' class="fa fa-instagram" aria-hidden="true" style="padding-right: .25em; padding-left: .25em; color:#fff; font-size: 3em;"></i></a>
-        		<a href="https://github.com/djuarez94" target="_blank" ><i id='socialIcons' class="fa fa-twitter-square" style="font-size:3em; color:#fff;"></i></a>
-        	</div>
-        </footer>
+<?php include 'include/footer.php' ?>
     </body>
     <script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
 	<script type="text/javascript" src="js/bootstrap.min.js"></script>

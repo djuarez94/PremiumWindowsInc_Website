@@ -22,20 +22,20 @@
                 </div>
                 <div class="collapse navbar-collapse" id="myNavbar">
                     <ul class="nav navbar-nav">
-                        <li class="active"><a href="index.html">Home</a></li>
-                        <li><a href="about.html">About</a></li>
-                        <li><a href="contact.html">Contact</a></li>
+                        <li class="active"><a href="index.php">Home</a></li>
+                        <li><a href="about.php">About</a></li>
+                        <li><a href="contact.php">Contact</a></li>
                         <li class="dropdown">
                             <a class="dropdown-toggle" data-toggle="dropdown" href="#">Products
                             <span class="caret"></span></a>
                         <ul class="dropdown-menu">
-                            <li><a href="glass.html">Glass</a></li>
-                            <li><a href="windows.html">Windows</a></li>
-                            <li><a href="doors.html">Doors</a></li>
+                            <li><a href="glass.php">Glass</a></li>
+                            <li><a href="windows.php">Windows</a></li>
+                            <li><a href="doors.php">Doors</a></li>
                         </ul>
                         </li>
-                        <li><a href="certificates.html">Certificates</a></li>
-                        <li><a href="careers.html">Careers</a></li>
+                        <li><a href="certificates.php">Certificates</a></li>
+                        <li><a href="careers.php">Careers</a></li>
                     </ul>
                     <ul class="nav navbar-nav navbar-right">
                         <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
@@ -110,25 +110,25 @@
                 <img src="img/PremiumSite_imgs/HomePage_Imgs/product_img1.jpg">
                 <h2>Glass</h2>
                 <p>We use Cardinal Glass with Low-E366 technology to help you with energy savings. Choose a diffused glass or tinted glass to enhance any window or door in your home.</p>
-				<button type="button" name="button"><a href="glass.html">More</a></button>
+				<button type="button" name="button"><a href="glass.php">More</a></button>
             </div>
             <div class="contain">
                 <img src="img/PremiumSite_imgs/HomePage_Imgs/product_img2.jpg">
                 <h2>Windows</h2>
                 <p>Our windows can be used as replacement windows or new construction, for residential or commercial use. We have many different styles and window combinations to choose from.</p>
-				<button type="button" name="button"><a href="windows.html">More</a></button>
+				<button type="button" name="button"><a href="windows.php">More</a></button>
             </div>
             <div class="contain">
                 <img src="img/PremiumSite_imgs/HomePage_Imgs/product_img3.jpg">
                 <h2>Doors</h2>
                 <p>Choose from our 3 door styles: sliding patio door, French swing door & French sliding door. We have top of the line door hardware to keep your family & home safe.</p>
-				<button type="button" name="button"><a href="doors.html">More</a></button>
+				<button type="button" name="button"><a href="doors.php">More</a></button>
             </div>
             <div class="contain">
                 <img src="img/PremiumSite_imgs/HomePage_Imgs/product_img4.jpg">
                 <h2>Certificates</h2>
                 <p>We only use top of the line products and choose our affiliates with our customer in mind. We pride ourselves with our lifetime warranty and are proud members of AAMA.</p>
-				<button type="button" name="button"><a href="certificates.html">More</a></button>
+				<button type="button" name="button"><a href="certificates.php">More</a></button>
             </div>
         </div>
         <div class="list">
@@ -144,22 +144,14 @@
                 <li>FREE Job Site Deliveries*</li>
                 <li>FREE Design Consultations</li>
                 <li>FREE Quotes</li>
-                <p>* Minimum purchase required</p>
+                <p ><i>* Minimum purchase required</i></p>
             </ul>
             <p id="extra">Energy Efficient Vinyl Windows and Doors!</p>
         </div>
         <div class="fb">
 
         </div>
-        <footer>
-            <p class="copyright">&copy; <?php echo date('Y'); ?> Premium Windows Inc.<br>All rights reserved.</p>
-            <a class="policy" href="privacy-policy.html">Privacy Policy</a>
-            <div class="text-center socialLinks">
-        		<a href="#" target="_blank" ><i id='socialIcons' class="fa fa-facebook-square" style="color:#fff; font-size: 3em;"></i></a>
-        		<a href="#" target="_blank" ><i id='socialIcons' class="fa fa-instagram" aria-hidden="true" style="padding-right: .25em; padding-left: .25em; color:#fff; font-size: 3em;"></i></a>
-        		<a href="#" target="_blank" ><i id='socialIcons' class="fa fa-twitter-square" style="font-size:3em; color:#fff;"></i></a>
-        	</div>
-        </footer>
+        <?php include 'include/footer.php' ?>
     </body>
     <script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
 	<script type="text/javascript" src="js/bootstrap.min.js"></script>
