@@ -44,20 +44,24 @@
 			</div>
 		</div>
 	</nav>
-        <img class="fill" src="img/PremiumSite_imgs/LaRepPage_Imgs/LaRep_MainImg.jpg" alt="house windows">
-		<div class="intro">
-			<h2>Los Angeles Sales Representative</h2>
-			<img src="img/PremiumSite_imgs/LaRepPage_Imgs/LaRep_Photo.jpg">
-			<p class="rep-info">
-				Daniel Delarosa
-				<br>
-				Los Angeles Regional Sales Rep
-				<br>
-				Direct Line: (562) 235 - 6250
-				<br>
-				Daniel@PremiumWindowsInc.com
-			</p>
-			<p>Daniel has been working in the window business for over 14 years. Not only is he a certified installer, he also owned and operated his own window company in Southern California. Daniel takes pride in knowing he has sold quality products and professionally installed over 100,000 windows. He has trained over 100 installers and sales reps in the Southern California region and has serviced for many window companies as well. He has extensive experience with every window on the market, including aluminum, wood, vinyl, triple pane and clad. His decision to work for Premium Windows was simple, he wants to sell “the highest quality vinyl windows and doors in the industry”. Daniel delivers quality customer service and a promise that you are getting the best vinyl window or door on the market today.</p>
+        <div class="parallaxLaRep"></div>
+		<div class="intro2">
+			<div class="photo">
+				<h2>Los Angeles Sales Representative</h2>
+				<img src="img/PremiumSite_imgs/LaRepPage_Imgs/LaRep_Photo.jpg">
+			</div>
+			<div class="infoRep">
+				<p class="rep-info">
+					Daniel Delarosa
+					<br>
+					Los Angeles Regional Sales Rep
+					<br>
+					Direct Line: (562) 235 - 6250
+					<br>
+					Daniel@PremiumWindowsInc.com
+				</p>
+				<p>Daniel has been working in the window business for over 14 years. Not only is he a certified installer, he also owned and operated his own window company in Southern California. Daniel takes pride in knowing he has sold quality products and professionally installed over 100,000 windows. He has trained over 100 installers and sales reps in the Southern California region and has serviced for many window companies as well. He has extensive experience with every window on the market, including aluminum, wood, vinyl, triple pane and clad. His decision to work for Premium Windows was simple, he wants to sell “the highest quality vinyl windows and doors in the industry”. Daniel delivers quality customer service and a promise that you are getting the best vinyl window or door on the market today.</p>
+			</div>
 		</div>
 <?php include 'include/footer.php' ?>
     </body>

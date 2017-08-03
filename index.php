@@ -58,7 +58,7 @@
             <div class="carousel-inner">
                 <div class="item active">
                     <img class="fill" src="img/PremiumSite_imgs/HomePage_Imgs/homeSlide_1.jpg" alt="homeSlide_1">
-                    <div class="carousel-caption">
+                    <div class="carousel-caption carousel-caption2">
                         <!-- <h3>Los Angeles</h3> -->
                         <!-- <p>LA is always so much fun!</p> -->
                     </div>
@@ -66,7 +66,7 @@
 
                 <div class="item">
                     <img class="fill" src="img/PremiumSite_imgs/HomePage_Imgs/homeSlide_2.jpg" alt="homeSlide_2">
-                    <div class="carousel-caption">
+                    <div class="carousel-caption carousel-caption2">
                         <!-- <h3>Chicago</h3> -->
                         <!-- <p>Thank you, Chicago!</p> -->
                     </div>
@@ -74,21 +74,21 @@
 
                 <div class="item">
                     <img class="fill" src="img/PremiumSite_imgs/HomePage_Imgs/homeSlide_3.jpg" alt="homeSlide_3">
-                    <div class="carousel-caption">
+                    <div class="carousel-caption carousel-caption2">
                         <!-- <h3>New York</h3> -->
                         <!-- <p>We love the Big Apple!</p> -->
                     </div>
                 </div>
                 <div class="item">
                     <img class="fill" src="img/PremiumSite_imgs/HomePage_Imgs/homeSlide_4.jpg" alt="homeSlide_4">
-                    <div class="carousel-caption">
+                    <div class="carousel-caption carousel-caption2">
                         <!-- <h3>New York</h3> -->
                         <!-- <p>We love the Big Apple!</p> -->
                     </div>
                 </div>
                 <div class="item">
                     <img class="fill" src="img/PremiumSite_imgs/HomePage_Imgs/homeSlide_5.jpg" alt="homeSlide_5">
-                    <div class="carousel-caption">
+                    <div class="carousel-caption carousel-caption2">
                         <!-- <h3>New York</h3> -->
                         <!-- <p>We love the Big Apple!</p> -->
                     </div>

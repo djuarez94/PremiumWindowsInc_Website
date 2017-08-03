@@ -45,10 +45,6 @@
 		</div>
 	</nav>
         <div class="header">
-            <div class="text">
-                <h2>Grids</h2>
-                <p>Premium Windows offers the unique look of grids to almost all of our windows and doors. These pieces are aluminum and are permanently sealed between panes of insulating glass, which creates a smooth surface that is easy to clean. We have many different layouts to choose from. We offer ¾" flat grids, or 1" sculptured grids to create a polished look. Grids are available in white or almond only.</p>
-            </div>
             <div class="slideshow">
 				<div id="myCarousel" class="carousel slide" data-ride="carousel">
 				    <!-- Indicators -->
@@ -104,6 +100,10 @@
 				        <span class="sr-only">Next</span>
 				    </a>
 				</div>
+            </div>
+			<div class="text">
+                <h2>Grids</h2>
+                <p>Premium Windows offers the unique look of grids to almost all of our windows and doors. These pieces are aluminum and are permanently sealed between panes of insulating glass, which creates a smooth surface that is easy to clean. We have many different layouts to choose from. We offer ¾" flat grids, or 1" sculptured grids to create a polished look. Grids are available in white or almond only.</p>
             </div>
         </div>
         <div class="grids">

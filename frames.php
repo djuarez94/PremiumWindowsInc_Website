@@ -45,10 +45,6 @@
 		</div>
 	</nav>
         <div class="header">
-            <div class="text">
-                <h2>Window & Door Frames</h2>
-                <p>At Premium Windows, we offer different vinyl frames to meet the needs of our customers. Our Imperial frame series is available for new construction jobs or  replacement needs. These energy efficient frames are available for commercial or residential purposes.  All of these are easy to install and made with precision cuts. We also sell a variety of different TremCo sealants to eliminate additional stops! Standard window & door color is white or almond, or we can do a custom color match.</p>
-            </div>
             <div class="slideshow">
                     <div id="myCarousel" class="carousel slide" data-ride="carousel">
                         <!-- Indicators -->
@@ -96,23 +92,27 @@
                         </a>
                     </div>
             </div>
+            <div class="text">
+                <h2>Window & Door Frames</h2>
+                <p>At Premium Windows, we offer different vinyl frames to meet the needs of our customers. Our Imperial frame series is available for new construction jobs or  replacement needs. These energy efficient frames are available for commercial or residential purposes.  All of these are easy to install and made with precision cuts. We also sell a variety of different TremCo sealants to eliminate additional stops! Standard window & door color is white or almond, or we can do a custom color match.</p>
+            </div>
         </div>
         <div class="columns">
             <div class="column1">
                 <h3>Block Frames :</h3>
                 <p>At Premium Windows, we offer different vinyl frames to meet the needs of our customers. Our Imperial frame series is available for new construction jobs or  replacement needs. These energy efficient frames are available for commercial or residential purposes.  All of these are easy to install and made with precision cuts. We also sell a variety of different TremCo sealants to eliminate additional stops! Standard window & door color is white or almond, or we can do a custom color match.</p>
             </div>
-            <div class="column2">
+            <div class="column1">
                 <h3>Nail-On Frames :</h3>
                 <p>Used on new construction or remodeling where stucco will be applied after window or door installation. These are installed by nailing or screwing the window or door frame directly onto the wood frame of the house or building at the 1" fin (also known as a set back). </p>
             </div>
-            <div class="column3">
+            <div class="column1">
                 <h3>Retrofit Frames :</h3>
                 <p>These are typically used to replace existing aluminum windows or doors. The retro-fit fin will cover the outside view of the aluminum frame that will be inside the house or building. Vinyl trim or wood molding is needed to cover the inside view of the existing aluminum frame. These are not included. Premium Windows does however, offer the vinyl trim for additional cost.</p>
             </div>
         </div>
+        <h2 id="directoryTitle">Imperial Window Frames</h2>
         <div class="frames">
-            <h2>Imperial Window Frames</h2>
             <div class="item">
                 <img src="img/PremiumSite_imgs/WnD_FRamesImgs/WnD_ImperialFrame_1.jpg">
                 <p>3 1/4" Retrofit Frame - 1 3/4" Fin</p>
@@ -130,8 +130,8 @@
                 <p>2 3/4" Nail-On Frame</p>
             </div>
         </div>
+        <h2 id="directoryTitle">Sliding French & Patio Door Frames</h2>
         <div class="frames">
-            <h2>Sliding French & Patio Door Frames</h2>
             <div class="item">
                 <img src="img/PremiumSite_imgs/WnD_FRamesImgs/SlidingDoorFrames_1.jpg">
                 <p>5 1/2" Block Frame</p>
@@ -149,8 +149,8 @@
                 <p>Here you can see the width difference between our French Patio Door (4 ⅝”) and Sliding Patio Door (2 ¼”). French Patio Doors are built with wider door frames than the standard patio door frame for stronger performance and luxurious appeal. </p>
             </div>
         </div>
+        <h2 id="directoryTitle">French Swing Door Frames</h2>
         <div class="frames">
-            <h2>French Swing Door Frames</h2>
             <div class="item">
                 <img src="img/PremiumSite_imgs/WnD_FRamesImgs/SwingDoorFrame_1.jpg">
                 <p>5 1/2" Block Frame</p>

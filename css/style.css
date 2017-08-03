@@ -437,6 +437,11 @@ td {
    background-color: rgba(0,0,0,.5);
 }
 
+.carousel-caption2 {
+   text-shadow: none;
+   background-color: transparent;
+}
+
 .carousel-caption p {
    margin: 0px;
 }
@@ -573,6 +578,12 @@ div.intro button {
    margin-right: 1em;
 }
 
+@media only screen and (min-width: 768px) {
+   div.gallery2 {
+      display: flex;
+   }
+}
+
 /*-------------------------------------
 | window-grids.php CSS
 -------------------------------------*/
@@ -605,8 +616,16 @@ div.intro button {
 }
 
 @media only screen and (min-width: 768px) {
-   div.gallery2 {
-      display: flex;
+   div.text {
+      margin-left: 20%;
+      margin-right: 20%;
+
+      padding-top: 2em;
+   }
+
+   div.grids {
+      margin-left: 20%;
+      margin-right: 20%;
    }
 }
 
@@ -616,7 +635,7 @@ div.intro button {
 .columns {
    padding-left: 2em;
    padding-right: 2em;
-   margin-top: -3em;
+   margin-top: 0em;
 }
 
 .columns h3 {
@@ -655,6 +674,26 @@ div.intro button {
    margin-left: auto;
    margin-right: auto;
    padding-bottom: 1em;
+}
+
+@media only screen and (min-width: 768px) {
+   div.columns {
+      display: flex;
+   }
+
+   div.column1 {
+      flex: 1;
+      padding-left: 3%;
+      padding-right: 3%;
+   }
+
+   div.frames {
+      display: flex;
+   }
+
+   div.frames .item {
+      flex: 1;
+   }
 }
 
 /*-------------------------------------
@@ -811,6 +850,17 @@ div.flexRow .flexImg img {
    padding-left: .25em;
 }
 
+@media only screen and (min-width: 768px) {
+   div.sectionItems {
+      display: flex;
+   }
+
+   div.sectionItems .items {
+      flex: 1;
+   }
+
+}
+
 /*-------------------------------------
 | slidingWindows.php CSS
 -------------------------------------*/
@@ -866,12 +916,64 @@ div.doorList h3 {
 /*-------------------------------------
 | la-rep.php CSS
 -------------------------------------*/
-div.intro img{
+div.intro2 img{
    display: block;
    margin-left: auto;
    margin-right: auto;
    padding-top: 1em;
    padding-bottom: 1em;
+}
+
+div.intro2 {
+   padding-left: 2.5em;
+   padding-right: 2.5em;
+   padding-bottom: 2.5em;
+}
+
+div.intro2 h2 {
+   color: #0d1dbd;
+   text-align: center;
+}
+
+div.intro2 p {
+   padding-top: 1em;
+   padding-bottom: 1.5em;
+}
+
+div.intro2 button {
+   background-color: #0d1dbd;
+   padding: 10px 20px 10px 20px;
+   border: none;
+}
+
+@media only screen and (min-width: 768px) {
+   .parallaxLaRep {
+      /* The image used */
+      background-image: url("../img/PremiumSite_imgs/LaRepPage_Imgs/LaRep_MainImg.jpg");
+
+      /* Set a specific height */
+      height: 500px;
+
+      /* Create the parallax scrolling effect */
+      background-attachment: fixed;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+   }
+
+   div.intro2 {
+      display: flex;
+      margin-top: 2em;
+   }
+
+   div.photo {
+      flex: 1;
+   }
+
+   div.infoRep {
+      flex: 2;
+      margin-left: 10%;
+   }
 }
 
 /*-------------------------------------

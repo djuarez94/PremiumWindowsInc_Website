@@ -46,59 +46,67 @@
 	</nav>
         <img src="img/PremiumSite_imgs/DoorHardwarePage_Imgs/DoorHardware_MaingImg.jpg" alt="" class="fill">
         <div class="section">
-            <h2>Sliding Patio & French Sliding Door Options</h2>
-            <p>Our Sliding Patio and French Doors are engineered to operate with ease. Their heavy duty construction and hardware allows for even the largest size door to glide open with little effort. If you desire the same luxury appeal of a French Swing Door; but prefer a sliding glass, we offer you our French Sliding Door that includes all of the beauty of the swing door, with the convenience of a sliding glass. These vinyl doors will help you conserve energy and they are easy to maintain, saving you time and money effortlessly. Customize your vinyl door with flat or sculptured grids, diffused glass, custom vinyl colors, or an upgraded handle.</p>
-            <div class="items">
-                <h3>Standard Door Handle</h3>
-                <img src="img/PremiumSite_imgs/DoorHardwarePage_Imgs/DoorHardware_SlidingDoor_1.jpg">
+            <div class="text">
+				<h2>Sliding Patio & French Sliding Door Options</h2>
+	            <p>Our Sliding Patio and French Doors are engineered to operate with ease. Their heavy duty construction and hardware allows for even the largest size door to glide open with little effort. If you desire the same luxury appeal of a French Swing Door; but prefer a sliding glass, we offer you our French Sliding Door that includes all of the beauty of the swing door, with the convenience of a sliding glass. These vinyl doors will help you conserve energy and they are easy to maintain, saving you time and money effortlessly. Customize your vinyl door with flat or sculptured grids, diffused glass, custom vinyl colors, or an upgraded handle.</p>
             </div>
-            <div class="items">
-                <h3>Handle Upgrade</h3>
-                <img src="img/PremiumSite_imgs/DoorHardwarePage_Imgs/DoorHardware_SlidingDoor_2.jpg">
-            </div>
-            <div class="items">
-                <h3>Inside View</h3>
-                <img src="img/PremiumSite_imgs/DoorHardwarePage_Imgs/DoorHardware_SlidingDoor_3.jpg">
-                <p>Two-Point Locking System is standard in all of our doors. We want you to know we have your safety in mind.</p>
+            <div class="sectionItems">
+				<div class="items">
+	                <h3>Standard Door Handle</h3>
+	                <img src="img/PremiumSite_imgs/DoorHardwarePage_Imgs/DoorHardware_SlidingDoor_1.jpg">
+	            </div>
+	            <div class="items">
+	                <h3>Handle Upgrade</h3>
+	                <img src="img/PremiumSite_imgs/DoorHardwarePage_Imgs/DoorHardware_SlidingDoor_2.jpg">
+	            </div>
+	            <div class="items">
+	                <h3>Inside View</h3>
+	                <img src="img/PremiumSite_imgs/DoorHardwarePage_Imgs/DoorHardware_SlidingDoor_3.jpg">
+	                <p>Two-Point Locking System is standard in all of our doors. We want you to know we have your safety in mind.</p>
+	            </div>
             </div>
         </div>
         <div class="section">
-            <h2>French Swing Door Options</h2>
-            <p>French swing doors are the ultimate in luxury appeal. They demand attention and admiration because of their style and design. Your home will be a topic of discussion when you choose this option. We have several combinations and designs for your exquisite taste.</p>
-            <div class="items">
-                <img src="img/PremiumSite_imgs/DoorHardwarePage_Imgs/DoorHardware_FrenchDoor_1.jpg">
-                <p>Our heavy duty French Swing Door hinges will last the lifetime of the door and make opening and closing your door a breeze.</p>
+            <div class="text">
+				<h2>French Swing Door Options</h2>
+	            <p>French swing doors are the ultimate in luxury appeal. They demand attention and admiration because of their style and design. Your home will be a topic of discussion when you choose this option. We have several combinations and designs for your exquisite taste.</p>
             </div>
-            <div class="items">
-                <div class="flexRow">
-					<div class="flexImg">
-						<img src="img/PremiumSite_imgs/DoorHardwarePage_Imgs/DoorHardware_FrenchDoorGroup_1.jpg">
-					</div>
-					<div class="flexImg">
-						<img src="img/PremiumSite_imgs/DoorHardwarePage_Imgs/DoorHardware_FrenchDoorGroup_2.jpg">
-					</div>
-                </div>
-                <div class="flexRow">
-					<div class="flexImg">
-						<img src="img/PremiumSite_imgs/DoorHardwarePage_Imgs/DoorHardware_FrenchDoorGroup_3.jpg">
-					</div>
-					<div class="flexImg">
-						<img src="img/PremiumSite_imgs/DoorHardwarePage_Imgs/DoorHardware_FrenchDoorGroup_4.jpg">
-					</div>
-                </div>
-                <div class="flexRow">
-					<div class="flexImg">
-						<img src="img/PremiumSite_imgs/DoorHardwarePage_Imgs/DoorHardware_FrenchDoorGroup_5.jpg">
-					</div>
-					<div class="flexImg">
-						<img src="img/PremiumSite_imgs/DoorHardwarePage_Imgs/DoorHardware_FrenchDoorGroup_6.jpg">
-					</div>
-                </div>
-                <p>Premium Windows standard French Swing Door hardware is available in either white and almond which match the frame color. However you can upgrade to one of many different finishes to compliment other decorative metals in your home.</p>
-            </div>
-            <div class="items">
-                <img src="img/PremiumSite_imgs/DoorHardwarePage_Imgs/DoorHardware_FrenchDoor_2.jpg">
-                <p>Our door handles are installed into aluminum reinforcement beams to keep your doors secure. To add to your piece of mind, these locks are installed with Two-Point Locking System.</p>
+            <div class="sectionItems">
+				<div class="items">
+	                <img src="img/PremiumSite_imgs/DoorHardwarePage_Imgs/DoorHardware_FrenchDoor_1.jpg">
+	                <p>Our heavy duty French Swing Door hinges will last the lifetime of the door and make opening and closing your door a breeze.</p>
+	            </div>
+	            <div class="items">
+	                <div class="flexRow">
+						<div class="flexImg">
+							<img src="img/PremiumSite_imgs/DoorHardwarePage_Imgs/DoorHardware_FrenchDoorGroup_1.jpg">
+						</div>
+						<div class="flexImg">
+							<img src="img/PremiumSite_imgs/DoorHardwarePage_Imgs/DoorHardware_FrenchDoorGroup_2.jpg">
+						</div>
+	                </div>
+	                <div class="flexRow">
+						<div class="flexImg">
+							<img src="img/PremiumSite_imgs/DoorHardwarePage_Imgs/DoorHardware_FrenchDoorGroup_3.jpg">
+						</div>
+						<div class="flexImg">
+							<img src="img/PremiumSite_imgs/DoorHardwarePage_Imgs/DoorHardware_FrenchDoorGroup_4.jpg">
+						</div>
+	                </div>
+	                <div class="flexRow">
+						<div class="flexImg">
+							<img src="img/PremiumSite_imgs/DoorHardwarePage_Imgs/DoorHardware_FrenchDoorGroup_5.jpg">
+						</div>
+						<div class="flexImg">
+							<img src="img/PremiumSite_imgs/DoorHardwarePage_Imgs/DoorHardware_FrenchDoorGroup_6.jpg">
+						</div>
+	                </div>
+	                <p>Premium Windows standard French Swing Door hardware is available in either white and almond which match the frame color. However you can upgrade to one of many different finishes to compliment other decorative metals in your home.</p>
+	            </div>
+	            <div class="items">
+	                <img src="img/PremiumSite_imgs/DoorHardwarePage_Imgs/DoorHardware_FrenchDoor_2.jpg">
+	                <p>Our door handles are installed into aluminum reinforcement beams to keep your doors secure. To add to your piece of mind, these locks are installed with Two-Point Locking System.</p>
+	            </div>
             </div>
         </div>
 <?php include 'include/footer.php' ?>
