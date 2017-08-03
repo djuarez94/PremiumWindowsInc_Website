@@ -44,7 +44,7 @@
 			</div>
 		</div>
 	</nav>
-        <img class="fill" src="img/PremiumSite_imgs/AboutPage_Imgs/About_mainImg.jpg">
+        <div class="parallaxAbout"></div>
         <div class="about">
             <h2>Who We Are</h2>
             <p>Premium Windows is a manufacturer of high quality vinyl windows & doors for residential and commercial use.  Our mission is to always provide our customers with the best quality products, customer service, and support.  Our products have a transferrable lifetime warranty, and our reputation is the number one driving factor.  We strive to be the best, and we want to be your first choice in replacement and new construction needs. Our line includes dual pane windows and doors that are AAMA, and NFRC approved. Premium Windows has a vast assortment of window and door options for your construction needs.
@@ -58,11 +58,11 @@
             </h2>
         </div>
         <div class="subAbout">
-            <div>
+            <div class="subAbout2">
                 <img src="img/PremiumSite_imgs/AboutPage_Imgs/About_subImg.jpg">
                 <p>Our team is highly skilled and have years of experience. Precision is key when it comes to making windows and doors. We work tirelessly to make you the best there is and take pride in the assembly of our products.</p>
             </div>
-            <div>
+            <div class="subAbout2">
                 <img src="img/PremiumSite_imgs/AboutPage_Imgs/About_subImg2.jpg">
                 <p>Get to know our experienced sales team. They’ve got the tools, skills, and a desire to help make your vision into reality. Each member works hard to serve our common purpose: to always provide our customers with the best quality products, customer service and support.</p>
             </div>

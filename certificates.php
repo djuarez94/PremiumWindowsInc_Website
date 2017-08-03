@@ -53,13 +53,13 @@
                 <img src="img/PremiumSite_imgs/CertsPage_Imgs/CertificatesImg_2.jpg">
                 <p>The National Fenestration Rating Council (NFRC) is a non-profit organization, which provides performance ratings on windows, doors and skylights. The NFRC label gives assurance of code compliance and gives credit to the brand.</p>
             </div>
-            <div class="award">
-                <img src="img/PremiumSite_imgs/CertsPage_Imgs/CertificatesImg_3.jpg">
-                <p><strong>Full Lifetime Transferable Warranty</strong></p>
-                <p>Premium Windows offers a full lifetime warranty on all products. We want to provide piece of mind to our customers.</p>
-                <button type="button" name="button"><a href="#">Download Warranty</a></button>
-                <button type="button" name="button"><a href="request-service.php">Request Service</a></button>
-            </div>
+			<div class="warranty">
+				<img src="img/PremiumSite_imgs/CertsPage_Imgs/CertificatesImg_3.jpg">
+				<p><strong>Full Lifetime Transferable Warranty</strong></p>
+				<p>Premium Windows offers a full lifetime warranty on all products. We want to provide piece of mind to our customers.</p>
+				<button type="button" name="button"><a href="#">Download Warranty</a></button>
+				<button type="button" name="button"><a href="request-service.php">Request Service</a></button>
+			</div>
         </div>
         <?php include 'include/footer.php' ?>
     </body>

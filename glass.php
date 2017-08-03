@@ -169,18 +169,21 @@
 	 </div>
 	</div>
 </div>
-
-        <div class="E366">
-            <h2>What is Low-E366?</h2>
-            <p>Cardinal Glass Industries Inc. introduces the ultimate performance glass, LoĒ-366, and comes standard in all Premium Windows products. LoĒ-366 provides the highest levels of year-round comfort and energy savings, for all climates. The secret? A triple layer of silver coating on the glass. This will protect your furniture, carpet, curtains and fabrics in the home as well as keep the heat and cold weather out. Energy-efficient </p>
-        </div>
-        <div class="glassOption">
-            <h2>Glass Options</h2>
-            <p>You have the option of single or double pane glass for windows. Doors come standard with double panes. Triple pane glass coming soon!</p>
-            <img src="img/PremiumSite_imgs/GlassPage_Imgs/GlassPage_subImg.jpg" alt="tinted glass">
-            <h2>Tinted Glass Options</h2>
-            <p>Tinted glass reduces glare and is ideal for areas in the home that get a lot of direct sunlight. While reflective glass products are effective in rejecting solar gain, their shiny appearance is undesirable in most homes and buildings. Our subtle tinted glass options provide high visibility and beauty without the discomfort of heat-absorbing glass or visual disruptions of highly reflective glass. </p>
-        </div>
+  <div class="row1">
+    <div class="E366">
+        <h2>What is Low-E366?</h2>
+        <p>Cardinal Glass Industries Inc. introduces the ultimate performance glass, Low-366, and comes standard in all Premium Windows products. LoĒ-366 provides the highest levels of year-round comfort and energy savings, for all climates. The secret? A triple layer of silver coating on the glass. This will protect your furniture, carpet, curtains and fabrics in the home as well as keep the heat and cold weather out. Energy-efficient </p>
+    </div>
+    <div class="glassOption">
+        <h2>Glass Options</h2>
+        <p>You have the option of single or double pane glass for windows. Doors come standard with double panes. Triple pane glass coming soon!</p>
+        <img src="img/PremiumSite_imgs/GlassPage_Imgs/GlassPage_subImg.jpg" alt="tinted glass">
+    </div>
+    <div class="tinted">
+        <h2>Tinted Glass Options</h2>
+        <p>Tinted glass reduces glare and is ideal for areas in the home that get a lot of direct sunlight. While reflective glass products are effective in rejecting solar gain, their shiny appearance is undesirable in most homes and buildings. Our subtle tinted glass options provide high visibility and beauty without the discomfort of heat-absorbing glass or visual disruptions of highly reflective glass. </p>
+    </div>
+  </div>
         <?php include 'include/footer.php' ?>
     </body>
   <script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>

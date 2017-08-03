@@ -44,7 +44,7 @@
 			</div>
 		</div>
 	</nav>
-		<img src="img/PremiumSite_imgs/CareersPage_Imgs/Careers_MainImg.jpg" alt="careers image" width="100%">
+		<div class="parallaxCareers"></div>
         <div class="careers">
 	        <p>Are you looking for a new exciting career in the manufacturing industry? Premium Windows Inc. located in Paramount, CA, is looking for you to join our team of dedicated employees. We offer flexible schedules with a great family oriented work environment. We have several career openings and are actively accepting applications and resumes.</p>
 	        <br>

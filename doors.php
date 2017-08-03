@@ -105,7 +105,7 @@
             <button type="button" name="button"><a href="frames.php">Door Frames</a></button>
             <button type="button" name="button"><a href="door-hardware.php">Hardware</a></button>
         </div>
-        <div class="gallery">
+        <div class="gallery2">
             <div class="windowLink">
                 <a href="slidingPatioDoors.php">
 					<img src="img/PremiumSite_imgs/DoorsPage_Imgs/WindowsPage_subImg_1.jpg">

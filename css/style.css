@@ -126,16 +126,15 @@ bc3335 : redish
     padding-left: 2em;
     padding-right: 2em;
     padding-bottom: 2em;
+    margin-left: auto;
+    margin-right: auto;
+    display: table
 }
 
-.list h2 {
+#listHeader {
     color: #0d1dbd;
     text-align: center;
     padding-bottom: .75em;
-}
-
-.list ul {
-   margin-left: 3em;
 }
 
 #extra {
@@ -143,12 +142,83 @@ bc3335 : redish
    color: #bc3335;
 }
 
+@media only screen and (min-width: 768px) {
+   .navbar-nav {
+      float: left;
+      margin-top: 1em;
+   }
+
+   #myNavbar ul li a {
+      color: #0d1dbd;
+      padding-left: 1em;
+   }
+
+   #myNavbar ul.dropdown-menu li a {
+    color: #0d1dbd;
+}
+
+   #myNavbar ul li a:hover {
+      color: #fff;
+      background-color: #0d1dbd;
+      padding-left: 1em;
+      opacity: .6;
+   }
+
+   #myNavbar ul li.active a{
+      background-color: #0d1dbd;
+      color: #fff;
+   }
+
+	.pageLinks {
+		display: flex;
+      max-width: 750px;
+      margin-left: auto;
+      margin-right: auto;
+	}
+
+   .pageLinks div.contain {
+      padding-left: 2em;
+      padding-right: 2em;
+      padding-bottom: 2em;
+      margin-bottom: 3em;
+      height: 400px;
+   }
+
+   .parallax {
+    /* The image used */
+    background-image: url("../img/PremiumSite_imgs/WindowsPage_Imgs/WindowsPage_SlideImg_2.jpg");
+
+    /* Set a specific height */
+    height: 500px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+   }
+}
 /*-------------------------------------
 | about.php CSS
 -------------------------------------*/
 .about {
    padding-left: 2em;
    padding-right: 2em;
+   padding-bottom: 2em;
+}
+
+.parallaxAbout {
+/* The image used */
+background-image: url("../img/PremiumSite_imgs/AboutPage_Imgs/About_mainImg.jpg");
+
+/* Set a specific height */
+height: 500px;
+
+/* Create the parallax scrolling effect */
+background-attachment: fixed;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
 }
 
 .about h2 {
@@ -158,7 +228,7 @@ bc3335 : redish
 .quote {
    padding-left: 2.5em;
    padding-right: 2.5em;
-   padding-bottom: 1.5em;
+   padding-bottom: 3em;
    text-align: center;
    color: #0d1dbd;
 }
@@ -177,11 +247,59 @@ bc3335 : redish
 .subAbout p {
    padding-top: 2em;
    padding-bottom: 2em;
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+@media only screen and (min-width: 768px) {
+   .about {
+      padding-left: 20%;
+      padding-right: 20%;
+      padding-top: 2em;
+   }
+
+   .quote {
+      padding-left: 33%;
+      padding-right: 33%;
+      padding-bottom: 3.5em;
+   }
+
+   .subAbout {
+      display: flex;
+      margin-left: auto;
+      margin-right: auto;
+
+      padding-left: 1em;
+      padding-right: 1em;
+   }
+
+
+
+   .subAbout2 {
+      width: 50%;
+      padding-left: 2%;
+      padding-right: 2%;
+   }
 }
 
 /*-------------------------------------
 | contact.php CSS
 -------------------------------------*/
+.parallaxContact {
+/* The image used */
+background-image: url("../img/PremiumSite_imgs/ContactPage_imgs/Contact_mainImg.jpg");
+
+/* Set a specific height */
+height: 500px;
+
+/* Create the parallax scrolling effect */
+background-attachment: fixed;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+
 .operationHours {
    padding-left: 2em;
    padding-right: 2em;
@@ -198,8 +316,10 @@ bc3335 : redish
    padding-right: 2em;
 }
 
-.directories h2 {
+#directoryTitle {
    color: #0d1dbd;
+   text-align: center;
+   padding-bottom: 1em;
 }
 
 .directories h3 {
@@ -275,6 +395,23 @@ td {
    background-color: #060f70;
 }
 
+@media only screen and (min-width: 768px) {
+   .directories {
+      display: flex;
+   }
+
+   .directories .tables {
+      flex: 1;
+      padding-left: 2%;
+      padding-right: 2%;
+   }
+
+   .contact {
+      margin-left: 5%;
+      margin-right: 5%;
+   }
+}
+
 /*-------------------------------------
 | glass.php CSS
 -------------------------------------*/
@@ -332,6 +469,41 @@ div.glassOption img {
    margin-left: -.6em;
 }
 
+div.tinted {
+   padding-left: 2.5em;
+   padding-right: 2.5em;
+   padding-bottom: 2em;
+}
+
+div.tinted h2 {
+   text-align: center;
+   color: #0d1dbd;
+}
+
+div.tinted img {
+   text-align: center;
+   padding-top: 1em;
+   margin-left: -.6em;
+}
+
+@media only screen and (min-width: 768px) {
+   .row1 {
+      display: flex;
+   }
+
+   .E366 {
+      flex:1;
+   }
+
+   .glassOption {
+      flex:1;
+   }
+
+   .tinted {
+      flex:1;
+   }
+}
+
 /*-------------------------------------
 | windows.php CSS
 -------------------------------------*/
@@ -372,6 +544,27 @@ div.windowLink p {
    color: #0d1dbd;
 }
 
+@media only screen and (min-width: 768px) {
+   div.gallery {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+   }
+
+   div.linkGroup {
+      display: flex;
+   }
+
+   div.windowLink {
+      flex: 1;
+   }
+
+   div.intro {
+      margin-left: 10%;
+      margin-right: 10%;
+   }
+}
+
 /*-------------------------------------
 | doors.php CSS
 -------------------------------------*/
@@ -409,6 +602,12 @@ div.intro button {
 
 .header .text h2 {
    color: #0d1dbd;
+}
+
+@media only screen and (min-width: 768px) {
+   div.gallery2 {
+      display: flex;
+   }
 }
 
 /*-------------------------------------
@@ -465,6 +664,10 @@ div.certificates {
    text-align: center;
    padding-top: 2em;
    padding-bottom: 2em;
+
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
 }
 
 div.certificates img {
@@ -488,15 +691,78 @@ div.award button {
    margin-bottom: 1em;
 }
 
-div.award button a {
+div.warranty {
+   padding-left: 2em;
+   padding-right: 2em;
+   padding-bottom: 2em;
+
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+div.warranty img {
+   text-align: center;
+   padding-bottom: 2em;
+}
+
+div.warranty button {
+   border: none;
+   background-color: #0d1dbd;
+   padding: 10px 20px 10px 20px;
+   margin-bottom: 1em;
+   margin-top: 1em;
+}
+
+div.warranty button a {
    color: #fff;
 }
 
+@media only screen and (min-width: 768px) {
+   div.certificates {
+      display: flex;
+   }
+
+   div.award {
+      flex:3;
+   }
+
+   div.warranty {
+      flex:3;
+   }
+}
+
+/*-------------------------------------
+| careers.php CSS
+-------------------------------------*/
 div.careers {
    padding-left: 2em;
    padding-right: 2em;
    padding-bottom: 2em;
    padding-top: 2em;
+}
+
+.parallaxCareers {
+/* The image used */
+background-image: url("../img/PremiumSite_imgs/CareersPage_Imgs/Careers_MainImg.jpg");
+
+/* Set a specific height */
+height: 500px;
+
+/* Create the parallax scrolling effect */
+background-attachment: fixed;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+@media only screen and (min-width: 768px) {
+   div.careers {
+      padding-left: 20%;
+      padding-right: 20%;
+      padding-top: 10%;
+      padding-bottom: 10%;
+   }
 }
 
 /*-------------------------------------

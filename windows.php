@@ -96,41 +96,47 @@
             <button type="button" name="button"><a href="frames.php">Window Frames</a></button>
         </div>
         <div class="gallery">
-            <div class="windowLink">
-                <a href="slidingWindows.php">
-					<img src="img/PremiumSite_imgs/WindowsPage_Imgs/WindowsPage_subImg_1.jpg">
-	                <p class="descr">Sliding Window</p>
-                </a>
+            <div class="linkGroup">
+				<div class="windowLink">
+	                <a href="slidingWindows.php">
+						<img src="img/PremiumSite_imgs/WindowsPage_Imgs/WindowsPage_subImg_1.jpg">
+		                <p class="descr">Sliding Window</p>
+	                </a>
+	            </div>
+	            <div class="windowLink">
+	                <a href="casement_Awning_Windows.php">
+	                    <img src="img/PremiumSite_imgs/WindowsPage_Imgs/WindowsPage_subImg_2.png">
+	                    <p class="descr">Casement & Awning Window</p>
+	                </a>
+	            </div>
             </div>
-            <div class="windowLink">
-                <a href="casement_Awning_Windows.php">
-                    <img src="img/PremiumSite_imgs/WindowsPage_Imgs/WindowsPage_subImg_2.png">
-                    <p class="descr">Casement & Awning Window</p>
-                </a>
+            <div class="linkGroup">
+				<div class="windowLink">
+	                <a href="singleHungWindows.php">
+	                    <img src="img/PremiumSite_imgs/WindowsPage_Imgs/WindowsPage_subImg_3.jpg">
+	                    <p class="descr">Single Hung Window</p>
+	                </a>
+	            </div>
+	            <div class="windowLink">
+	                <a href="fixedWindows.php">
+	                    <img src="img/PremiumSite_imgs/WindowsPage_Imgs/WindowsPage_subImg_4.jpg">
+	                    <p class="descr">Picture Window</p>
+	                </a>
+	            </div>
             </div>
-            <div class="windowLink">
-                <a href="singleHungWindows.php">
-                    <img src="img/PremiumSite_imgs/WindowsPage_Imgs/WindowsPage_subImg_3.jpg">
-                    <p class="descr">Single Hung Window</p>
-                </a>
-            </div>
-            <div class="windowLink">
-                <a href="fixedWindows.php">
-                    <img src="img/PremiumSite_imgs/WindowsPage_Imgs/WindowsPage_subImg_4.jpg">
-                    <p class="descr">Picture Window</p>
-                </a>
-            </div>
-            <div class="windowLink">
-                <a href="fixedWindows.php">
-                    <img src="img/PremiumSite_imgs/WindowsPage_Imgs/WindowsPage_subImg_5.jpg">
-                    <p class="descr">Arch & Special Shape Window</p>
-                </a>
-            </div>
-            <div class="windowLink">
-                <a href="gardenWindows.php">
-                    <img src="img/PremiumSite_imgs/WindowsPage_Imgs/WindowsPage_subImg_6.jpg">
-                    <p class="descr">Garden Window</p>
-                </a>
+            <div class="linkGroup">
+				<div class="windowLink">
+	                <a href="fixedWindows.php">
+	                    <img src="img/PremiumSite_imgs/WindowsPage_Imgs/WindowsPage_subImg_5.jpg">
+	                    <p class="descr">Arch & Special Shape Window</p>
+	                </a>
+	            </div>
+	            <div class="windowLink">
+	                <a href="gardenWindows.php">
+	                    <img src="img/PremiumSite_imgs/WindowsPage_Imgs/WindowsPage_subImg_6.jpg">
+	                    <p class="descr">Garden Window</p>
+	                </a>
+	            </div>
             </div>
             <div class="windowLink">
                 <a href="bayNBowWindows.php">
